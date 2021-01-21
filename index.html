@@ -7,9 +7,94 @@
   </head>
   <body>
     <header>
-      <nav></nav>
+      <img
+        src="./assets/images/Twitter_Logo_Blue.png"
+        alt="Twitter Logo"
+        class="twitter-logo"
+      />
+      <nav>
+        <ul class="nav-bar">
+          <li class="nav-items">
+            <a href="#"> Home </a>
+          </li>
+          <li class="nav-items">
+            <a href="#"> Explore </a>
+          </li>
+          <li class="nav-items">
+            <a href="#"> Notifications </a>
+          </li>
+          <li class="nav-items">
+            <a href="#"> Messages </a>
+          </li>
+          <li class="nav-items">
+            <a href="#"> List </a>
+          </li>
+          <li class="nav-items">
+            <a href="#"> Bookmarks </a>
+          </li>
+          <li class="nav-items">
+            <a href="#"> Profile </a>
+          </li>
+          <li class="nav-items">
+            <a href="#"> More </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-profile">
+        <div class="user-profile-name">
+          <h2>Twitter Queen</h2>
+          <p>@queenhoonmain</p>
+        </div>
+        <img
+          src="./assets/images/avatar.png"
+          alt="ProfilePhoto"
+          class="user-image"
+        />
+      </div>
     </header>
-    <main></main>
-    <aside></aside>
+    <div class="container">
+      <main>
+        <div class="user-tweet">
+          <div class="tweet-body">
+            <img src="./assets/images/avatar.png" alt="" class="user-image" />
+            <input
+              type="text"
+              name=""
+              id="tweet"
+              placeholder="what's happening..."
+            />
+          </div>
+
+          <!-- <button class="tweet-btn" type="submit">Tweet</button> -->
+          <input type="button" value="Tweet" class="tweet-btn" />
+        </div>
+        <div class="user-posts"></div>
+      </main>
+      <aside>
+        <input
+          type="text"
+          placeholder="Search Twitter"
+          class="search-twitter"
+        />
+        <div class="trending">
+          <h2>Trending</h2>
+
+          <div class="current-trending">
+            <h3 class="trending-title">#Covid19</h3>
+            <p class="trending-info">Trending in India</p>
+            <hr class="solid" />
+          </div>
+          <div class="current-trending">
+            <h3 class="trending-title">#IndvsAus</h3>
+            <p class="trending-info">Trending in Cricket</p>
+          </div>
+          <div class="current-trending">
+            <h3 class="trending-title">#IPL2021</h3>
+            <p class="trending-info">Trending in India</p>
+          </div>
+        </div>
+        <div class="follow"></div>
+      </aside>
+    </div>
   </body>
 </html>
