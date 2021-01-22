@@ -14,7 +14,7 @@
       />
       <nav>
         <ul class="nav-bar">
-          <li class="nav-items">
+          <li class="nav-items default">
             <a href="#"> Home </a>
           </li>
           <li class="nav-items">
@@ -57,12 +57,19 @@
         <div class="user-tweet">
           <div class="tweet-body">
             <img src="./assets/images/avatar.png" alt="" class="user-image" />
-            <input
+            <!-- <input
               type="text"
               name=""
               id="tweet"
               placeholder="what's happening..."
-            />
+            /> -->
+            <textarea
+              name="tweet"
+              id="tweet"
+              cols="20"
+              rows="2"
+              placeholder="what's happening...."
+            ></textarea>
           </div>
 
           <!-- <button class="tweet-btn" type="submit">Tweet</button> -->
@@ -78,21 +85,47 @@
         />
         <div class="trending">
           <h2>Trending</h2>
+          <hr class="solid" />
 
           <div class="current-trending">
             <h3 class="trending-title">#Covid19</h3>
             <p class="trending-info">Trending in India</p>
-            <hr class="solid" />
           </div>
+          <hr class="solid" />
           <div class="current-trending">
             <h3 class="trending-title">#IndvsAus</h3>
             <p class="trending-info">Trending in Cricket</p>
           </div>
+          <hr class="solid" />
           <div class="current-trending">
             <h3 class="trending-title">#IPL2021</h3>
             <p class="trending-info">Trending in India</p>
           </div>
+          <hr class="solid" />
+          <a href="#" class="show-more">show more</a>
         </div>
+        <div class="follow-more">
+          <h2>Follow More</h2>
+          <hr class="solid" />
+
+          <div class="follow-more-body">
+            <img src="./assets/images/avatar.png" alt="" class="follow-more-image">
+            <div class="follow-more-user">
+              <h3 class="trending-title">Bishal Sachan</h3>
+            <p class="trending-info">@bishalbabu</p>
+            
+            </div>
+            <button type="submit" class="follow-btn">follow</button>
+          </div>
+          <hr class="solid" />
+          <div class="follow-more-body">
+            <img src="./assets/images/avatar.png" alt="" class="follow-more-image">
+            <div class="follow-more-user">
+              <h3 class="trending-title">Chunni Gagar</h3>
+            <p class="trending-info">@chuunibabu</p>
+            
+            </div>
+            <button type="submit" class="follow-btn">follow</button>
         <div class="follow"></div>
       </aside>
     </div>
